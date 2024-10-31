@@ -1,0 +1,64 @@
+/* 1. Все текстовые элементы h1 сделайте заглавными буквами */
+h1 {
+    text-transform: uppercase;
+}
+
+/* 2. Создайте класс для списка целей и сделайте цвет текста красным и шрифт 16px */
+.goals {
+    color: red;
+    font-size: 16px;
+}
+
+/* 3. Третий пункт в списке целей имеет желтый фон и наклонный текст */
+.goals .italic-goal {
+    background-color: yellow;
+    font-style: italic;
+}
+
+
+/* 4. Задайте рамку 1px solid red для всех упорядоченных списков */
+ol {
+    border: 1px solid red;
+}
+
+/* 5. Добавьте id к первому заголовку h1 и задайте ему зеленый цвет текста */
+#main-header {
+    color: green;
+}
+
+/* 6. Для всех ссылок на PDF-документы установите стиль: зеленый цвет и курсивный шрифт */
+a[href$=".pdf"] {
+    color: green;
+    font-style: italic;
+}
+
+/* 7. Для всех ссылок уберите подчеркивание и сделайте фиолетовый цвет текста */
+a {
+    color: violet;
+    text-decoration: none;
+}
+
+/* 8. Сделайте все заглавными буквами вложенные списки второго уровня */
+ol ol {
+    text-transform: uppercase;
+}
+
+/* 9. Ссылки внутри абзацев имеют цвет magenta и фоновый цвет mistyrose */
+p a {
+    color: magenta;
+    background-color: mistyrose;
+}
+
+/* 10. Создайте класс, который делает текст жирным и курсивным, и примените его к нужным элементам */
+.bold-italic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* 11. Для всех тегов li с классом bold сделайте текст заглавными буквами */
+li.bold {
+    text-transform: uppercase;
+}
+.bordik{
+    border: 1px solid blue;
+}
