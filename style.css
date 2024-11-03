@@ -1,0 +1,64 @@
+
+h1 {
+    text-transform: uppercase;
+}
+
+
+.goals {
+    color: red;
+    font-size: 16px;
+}
+
+
+.goals .italic-goal {
+    background-color: yellow;
+    font-style: italic;
+}
+
+
+
+ol {
+    border: 1px solid red;
+}
+
+
+#main-header {
+    color: green;
+}
+
+
+a[href$=".pdf"] {
+    color: green;
+    font-style: italic;
+}
+
+
+a {
+    color: violet;
+    text-decoration: none;
+}
+
+
+ol ol {
+    text-transform: uppercase;
+}
+
+
+p a {
+    color: magenta;
+    background-color: mistyrose;
+}
+
+
+.bold-italic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+li.bold {
+    text-transform: uppercase;
+}
+.bordik{
+    border: 1px solid blue;
+}
